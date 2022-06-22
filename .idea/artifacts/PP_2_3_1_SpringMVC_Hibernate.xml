@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jpackage" name="PP_2_3_1_SpringMVC_Hibernate">
+    <output-path>$PROJECT_DIR$/out/artifacts/PP_2_3_1_SpringMVC_Hibernate</output-path>
+    <root id="root">
+      <element id="archive" name="PP_2_3_1_SpringMVC_Hibernate.jar">
+        <element id="module-output" name="PP_2_3_1_SpringMVC_Hibernate" />
+      </element>
+    </root>
+  </artifact>
+</component>

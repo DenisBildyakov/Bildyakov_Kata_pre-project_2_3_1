@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add User</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/styles/css/style.css}"/>
+</head>
+<body>
+
+<table>
+    <tr>
+        <td><h1>Edit User</h1></td>
+    </tr>
+    <tr>
+        <td><form th:method="POST" th:action="@{/}" th:object="${user}">
+
+            <label for="firstName">Enter name</label>
+            <input type="text" th:field="*{firstName}" id="firstName">
+            <br/>
+            <br/>
+
+            <label for="lastName">Enter Last Name</label>
+            <input type="text" th:field="*{lastName}" id="lastName">
+            <br/>
+            <br/>
+
+            <label for="age">Enter age</label>
+            <input type="text" th:field="*{age}" id="age">
+            <br/>
+            <br/>
+            <input type="submit" value="ADD"/>
+
+        </form></td>
+    </tr>
+</table>
+
+</body>
+</html>
